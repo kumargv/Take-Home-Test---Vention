@@ -53,14 +53,19 @@ Then I started by creating a test_cases folder which had the following structure
 |  |- weapon_creation_power.test.js | Weapon Creation and Power Calculation |
 
 Apart from the above, the following service, called powerCalculationService.js was added for the calculation of power. 
+
 `powerCalculationService.js`
 
 Having completed the above, I started by creating and testing the test_cases for the APIs. For the APIs I tested using jest, by creating mock functions, creating local test materials, test sub materials, test weapons and checking if their relation does work. They can be run as follows,
 
 `npm test test_cases/materials/get_materials.test.js`
+
 `npm test test_cases/materials/get_materials_by_id.test.js`
+
 `npm test test_cases/materials/put_materials_by_id.test.js`
+
 `npm test test_cases/materials/delete_material_by_id.test.js`
+
 `npm test test_cases/weapon/get_weapon_max_build_quantity.test.js`
 
 I then created API Tests for the rest of the Endpoints. These involved testing the API's the same way as previously, but less exhaustively and testing only the basic functionalities. They can be run as follows,
@@ -71,22 +76,22 @@ I then created API Tests for the rest of the Endpoints. These involved testing t
 Lastly, I worked on the creation of end to end test for the creation of QA Stick and calculation of the power of the weapon. The test involves the following steps, 
 
 #### Test 1 - Verifies Materials
--Checks material existence
--Documents material properties
--Shows hierarchical structure
+- Checks material existence
+- Documents material properties
+- Shows hierarchical structure
 
 #### Test 2 - Tests MaxBuildQuantity
 
--Verifies calculation
--Documents behavior with quantity changes
--Shows consistent value.
+- Verifies calculation
+- Documents behavior with quantity changes
+- Shows consistent value.
 
 #### Test 3 - Calculates Weapon Power
 
--Shows step-by-step power calculations
--Documents material contributions
--Provides visual hierarchy
--Includes detailed logging
+- Shows step-by-step power calculations
+- Documents material contributions
+- Provides visual hierarchy
+- Includes detailed logging
 
 The test can be run as follows,
 `npm test test_cases/e2e_test/weapon_creation_power.test.js`
