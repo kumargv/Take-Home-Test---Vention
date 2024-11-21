@@ -1,0 +1,93 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Material 1 Branch -->
+    <g id="material1-branch">
+        <!-- Material 1 -->
+        <circle cx="400" cy="50" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="400" y="40" text-anchor="middle" font-family="Arial">Material 1</text>
+        <text x="400" y="55" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 10</text>
+        <text x="400" y="70" text-anchor="middle" font-family="Arial" font-size="10">Total = 10</text>
+
+        <!-- Material 2 -->
+        <circle cx="400" cy="150" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="400" y="140" text-anchor="middle" font-family="Arial">Material 2</text>
+        <text x="400" y="155" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="400" y="170" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Material 3 -->
+        <circle cx="300" cy="250" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="300" y="240" text-anchor="middle" font-family="Arial">Material 3</text>
+        <text x="300" y="255" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="300" y="270" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Material 4 -->
+        <circle cx="500" cy="250" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="500" y="240" text-anchor="middle" font-family="Arial">Material 4</text>
+        <text x="500" y="255" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="500" y="270" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Material 5 -->
+        <circle cx="250" cy="350" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="250" y="340" text-anchor="middle" font-family="Arial">Material 5</text>
+        <text x="250" y="355" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="250" y="370" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Material 12 -->
+        <circle cx="350" cy="350" r="45" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="350" y="340" text-anchor="middle" font-family="Arial">Material 12</text>
+        <text x="350" y="355" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="350" y="370" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Connecting Lines Branch 1 -->
+        <line x1="400" y1="95" x2="400" y2="105" stroke="#0066cc" stroke-width="2"/>
+        <line x1="400" y1="195" x2="300" y2="205" stroke="#0066cc" stroke-width="2"/>
+        <line x1="400" y1="195" x2="500" y2="205" stroke="#0066cc" stroke-width="2"/>
+        <line x1="300" y1="295" x2="250" y2="305" stroke="#0066cc" stroke-width="2"/>
+        <line x1="300" y1="295" x2="350" y2="305" stroke="#0066cc" stroke-width="2"/>
+
+        <!-- Quantity Labels Branch 1 -->
+        <text x="410" y="100" font-family="Arial" font-size="12" fill="#0066cc">×2</text>
+        <text x="340" y="200" font-family="Arial" font-size="12" fill="#0066cc">×5</text>
+        <text x="460" y="200" font-family="Arial" font-size="12" fill="#0066cc">×5</text>
+        <text x="270" y="300" font-family="Arial" font-size="12" fill="#0066cc">×5</text>
+        <text x="330" y="300" font-family="Arial" font-size="12" fill="#0066cc">×1</text>
+    </g>
+
+    <!-- Material 9 Branch -->
+    <g id="material9-branch">
+        <!-- Material 9 -->
+        <circle cx="600" cy="150" r="45" fill="#fff0e6" stroke="#cc6600" stroke-width="2"/>
+        <text x="600" y="140" text-anchor="middle" font-family="Arial">Material 9</text>
+        <text x="600" y="155" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 100</text>
+        <text x="600" y="170" text-anchor="middle" font-family="Arial" font-size="10">Total = 100</text>
+
+        <!-- Material 10 -->
+        <circle cx="600" cy="250" r="45" fill="#fff0e6" stroke="#cc6600" stroke-width="2"/>
+        <text x="600" y="240" text-anchor="middle" font-family="Arial">Material 10</text>
+        <text x="600" y="255" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="600" y="270" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Material 11 -->
+        <circle cx="600" cy="350" r="45" fill="#fff0e6" stroke="#cc6600" stroke-width="2"/>
+        <text x="600" y="340" text-anchor="middle" font-family="Arial">Material 11</text>
+        <text x="600" y="355" text-anchor="middle" font-family="Arial" font-size="10">Base Power = 0</text>
+        <text x="600" y="370" text-anchor="middle" font-family="Arial" font-size="10">Total = 0</text>
+
+        <!-- Connecting Lines Branch 9 -->
+        <line x1="600" y1="195" x2="600" y2="205" stroke="#cc6600" stroke-width="2"/>
+        <line x1="600" y1="295" x2="600" y2="305" stroke="#cc6600" stroke-width="2"/>
+
+        <!-- Quantity Labels Branch 9 -->
+        <text x="610" y="200" font-family="Arial" font-size="12" fill="#cc6600">×5</text>
+        <text x="610" y="300" font-family="Arial" font-size="12" fill="#cc6600">×10</text>
+    </g>
+
+    <!-- Final Weapon Power -->
+    <rect x="300" y="450" width="200" height="80" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="10"/>
+    <text x="400" y="470" text-anchor="middle" font-family="Arial" font-weight="bold">Total Weapon Power</text>
+    <text x="400" y="490" text-anchor="middle" font-family="Arial" font-size="12">M1 (10) + M9 (100)</text>
+    <text x="400" y="510" text-anchor="middle" font-family="Arial" font-weight="bold">= 110</text>
+
+    <!-- Power Flow Lines -->
+    <path d="M 400 400 Q 400 425 400 450" stroke="#0066cc" stroke-width="2" fill="none"/>
+    <path d="M 600 400 Q 500 425 400 450" stroke="#cc6600" stroke-width="2" fill="none"/>
+</svg>
